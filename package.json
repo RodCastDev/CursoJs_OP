@@ -1,0 +1,27 @@
+{
+  "name": "mi-primer-proyecto-de-node",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de Js con NODE en OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "EjercicioOP": "Hola este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo",
+    "start": "node index.js",
+    "saludar": "node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodCastDev/Curso_Js_OP.git"
+  },
+  "keywords": [
+    "holamundo",
+    "first",
+    "proyect"
+  ],
+  "author": "Rodrigo Castiblanco Pardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodCastDev/Curso_Js_OP/issues"
+  },
+  "homepage": "https://github.com/RodCastDev/Curso_Js_OP#readme"
+}
