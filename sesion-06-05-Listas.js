@@ -23,4 +23,3 @@ console.log(str[1])
 
 const ar_str = Array.from(str)
 console.log(ar_str)
-

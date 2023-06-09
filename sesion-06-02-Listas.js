@@ -6,8 +6,9 @@ const array = ["San Sebastian", "Madrir", "Cajica", "Bogota", "Soacha"]
 const val = array.forEach(v => {
     console.log(v)
 })
-console.log(val)
+//console.log(val)
 
+//.map()
 const newArray = array.map((valor , indice) => `${indice + 1 } - ${valor}`)
 console.log(newArray)
 
@@ -30,22 +31,22 @@ const peronasMayores = listaObjetos.filter(obj =>{
     }
 })
 
-console.log(peronasMayores)
+//console.log(peronasMayores)
 
 //Forma mas eficiente del .filter() 
 const PersMayores = listaObjetos.filter(obj => obj.edad > 30)
-console.log(PersMayores)
+//console.log(PersMayores)
 
 const nuevaLista = listaObjetos.filter(obj => obj.nombre !== "Rodrigo")
-console.log(nuevaLista)
+//console.log(nuevaLista)
 
 //Metodo .reduce()
 const valores = [3, 54, 23, 5, 90, 100]
 const suma = valores.reduce((ant, cur, i, arrayOriginal)=>{
-    console.log(ant)
+    /* console.log(ant)
     console.log(cur)
     console.log(i)
     console.log(arrayOriginal)
-    return ant + cur
+     */return ant + cur
 })
-console.log(suma)
+//console.log(suma)
